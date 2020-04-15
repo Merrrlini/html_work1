@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Auto Form</title>
+    </head>
+    <body>
+        <header>
+            <h1>Auto Form</h1>
+            <nav>
+                <a href="index.html">Index</a>
+            </nav>
+        </header>
+        <main>
+            <form method="POST" action="https://formspree.io/xlewzrga">
+                <label>
+                    Name:
+    <input type="text" placeholder="Name" name="Name" required>
+                </label>
+                <label>
+                    Email:
+    <input type="email" placeholder="Email" name="email" required>
+                </label>
+                <label>Gender:</label>
+                <label>
+                    <input type="radio" name="gender" value="male">Male
+    
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female">Female
+    
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="other">other
+    
+                </label>
+                <br>
+                <label>
+                    Commnets:
+    <textarea name="comments"></textarea>
+                </label>
+                <br>
+                <input type="submit">
+            </form>
+            <form>
+                <h2>Choose favorite</h2>
+                <div>
+                     <label>
+                         <input type="radio" name="Car" value="Mercedes-Benz">Mercedes-Benz
+                     </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="radio" name="Car" value="Audi">Audi
+                    </label>
+                 </div>
+                 <div>
+                    <label>
+                        <input type="radio" name="Car" value="BMW">BMW
+                    </label>
+                </div>   
+            </form>     
+    </body>
+</html>
